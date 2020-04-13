@@ -11,6 +11,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            ShopLocation()
+                .edgesIgnoringSafeArea(.top)
+                .frame(height: 300)
+            
+            Logo()
+                .offset(y: -130)
+                .padding(.bottom, -130)
+            
             VStack(alignment: .leading) {
                 Text("Mazda")
                     .font(.title)
@@ -23,6 +31,8 @@ struct ContentView: View {
                 }
             }
             .padding()
+            
+            Spacer()
         }
     }
 }
