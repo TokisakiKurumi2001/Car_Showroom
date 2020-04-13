@@ -14,6 +14,7 @@
 		D43723FC24435C500069AF4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43723FB24435C500069AF4E /* Preview Assets.xcassets */; };
 		D43723FF24435C500069AF4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43723FD24435C500069AF4E /* LaunchScreen.storyboard */; };
 		D49EB84B24435EBC00DA69E7 /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49EB84A24435EBC00DA69E7 /* Logo.swift */; };
+		D4CB32DD24440F75002631BF /* ShopLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CB32DC24440F75002631BF /* ShopLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D43723FE24435C500069AF4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D437240024435C500069AF4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D49EB84A24435EBC00DA69E7 /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
+		D4CB32DC24440F75002631BF /* ShopLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				D437240024435C500069AF4E /* Info.plist */,
 				D43723FA24435C500069AF4E /* Preview Content */,
 				D49EB84A24435EBC00DA69E7 /* Logo.swift */,
+				D4CB32DC24440F75002631BF /* ShopLocation.swift */,
 			);
 			path = Car_Showroom;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D43723F324435C4F0069AF4E /* AppDelegate.swift in Sources */,
+				D4CB32DD24440F75002631BF /* ShopLocation.swift in Sources */,
 				D43723F524435C4F0069AF4E /* SceneDelegate.swift in Sources */,
 				D49EB84B24435EBC00DA69E7 /* Logo.swift in Sources */,
 				D43723F724435C4F0069AF4E /* ContentView.swift in Sources */,
