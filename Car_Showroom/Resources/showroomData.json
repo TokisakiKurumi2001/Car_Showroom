@@ -1,0 +1,132 @@
+[
+    {
+        "name": "Aston Martin",
+        "category": "Sportcar",
+        "city": "Warwickshire",
+        "state": "Gaydon",
+        "id": 1001,
+        "park": "Gaydon, Warwickshire",
+        "coordinates": {
+            "longitude": -1.4732809,
+            "latitude": 52.1837913
+        },
+        "imageName": "aston_martin"
+    },
+    {
+        "name": "Bugatti",
+        "category": "Supercar",
+        "city": "Molsheim",
+        "state": "France",
+        "id": 1002,
+        "park": "Molsheim, France",
+        "coordinates": {
+            "longitude": 7.4813479,
+            "latitude": 48.5456736
+        },
+        "imageName": "bugatti"
+    },
+    {
+        "name": "Ferrari",
+        "category": "Sportcar",
+        "city": "Maranello",
+        "state": "Italy",
+        "id": 1003,
+        "park": "Maranello, Italy",
+        "coordinates": {
+            "longitude": 10.8508738,
+            "latitude": 44.5290696
+        },
+        "imageName": "ferrari"
+    },
+    {
+        "name": "Koenigsegg",
+        "category": "Supercar",
+        "city": "Angelholm",
+        "state": "Sweden",
+        "id": 1004,
+        "park": "Angelholm, Sweden",
+        "coordinates": {
+            "longitude": 12.7964403,
+            "latitude": 56.2524501
+        },
+        "imageName": "koenigsegg"
+    },
+    {
+        "name": "Lamborghini",
+        "category": "Sportcar",
+        "city": "Sant'Agata Bolognese",
+        "state": "Italy",
+        "id": 1005,
+        "park": "Sant'Agata Bolognese, Italy",
+        "coordinates": {
+            "longitude": 11.0956852,
+            "latitude": 44.6654612
+        },
+        "imageName": "lamborghini"
+    },
+    {
+        "name": "Lykan",
+        "category": "Supercar",
+        "city": "Dubai",
+        "state": "UAE",
+        "id": 1006,
+        "park": "Dubai, UAE",
+        "coordinates": {
+            "longitude": 54.9475494,
+            "latitude": 25.0757073
+        },
+        "imageName": "lykan"
+    },
+    {
+        "name": "Maybach",
+        "category": "Supercar",
+        "city": "Stuttgart",
+        "state": "Germany",
+        "id": 1007,
+        "park": "Stuttgart, Germany",
+        "coordinates": {
+            "longitude": 9.037131,
+            "latitude": 48.7793504
+        },
+        "imageName": "maybach"
+    },
+    {
+        "name": "Mazda",
+        "category": "Car",
+        "city": "Ho Chi Minh",
+        "state": "Viet Nam",
+        "id": 1008,
+        "park": "Ho Chi Minh, Viet Nam",
+        "coordinates": {
+            "longitude": 106.4150268,
+            "latitude": 10.7553411
+        },
+        "imageName": "mazda"
+    },
+    {
+        "name": "Pagani",
+        "category": "Sportcar",
+        "city": "San Cesario sul Panaro",
+        "state": "Italy",
+        "id": 1009,
+        "park": "San Cesario sul Panaro, Italy",
+        "coordinates": {
+            "longitude": 11.0267413,
+            "latitude": 44.5648705
+        },
+        "imageName": "pagani"
+    },
+    {
+        "name": "Rolls Royce",
+        "category": "Car",
+        "city": "Derby",
+        "state": "England",
+        "id": 1010,
+        "park": "Derby, England",
+        "coordinates": {
+            "longitude": -1.5400074,
+            "latitude": 2.914669,
+        },
+        "imageName": "rolls_royce"
+    }
+]

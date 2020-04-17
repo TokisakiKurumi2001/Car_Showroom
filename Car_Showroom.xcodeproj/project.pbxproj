@@ -15,6 +15,19 @@
 		D43723FF24435C500069AF4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43723FD24435C500069AF4E /* LaunchScreen.storyboard */; };
 		D49EB84B24435EBC00DA69E7 /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49EB84A24435EBC00DA69E7 /* Logo.swift */; };
 		D4CB32DD24440F75002631BF /* ShopLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CB32DC24440F75002631BF /* ShopLocation.swift */; };
+		D4F42F0B2449F3AD00162DE0 /* aston_martin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4F42F002449F3AD00162DE0 /* aston_martin.jpg */; };
+		D4F42F0C2449F3AD00162DE0 /* lykan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4F42F012449F3AD00162DE0 /* lykan.jpg */; };
+		D4F42F0D2449F3AD00162DE0 /* ferrari.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4F42F022449F3AD00162DE0 /* ferrari.jpg */; };
+		D4F42F0E2449F3AD00162DE0 /* showroomData.json in Resources */ = {isa = PBXBuildFile; fileRef = D4F42F032449F3AD00162DE0 /* showroomData.json */; };
+		D4F42F0F2449F3AD00162DE0 /* koenigsegg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4F42F042449F3AD00162DE0 /* koenigsegg.jpg */; };
+		D4F42F102449F3AD00162DE0 /* bugatti.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4F42F052449F3AD00162DE0 /* bugatti.jpg */; };
+		D4F42F112449F3AD00162DE0 /* pagani.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4F42F062449F3AD00162DE0 /* pagani.jpg */; };
+		D4F42F122449F3AD00162DE0 /* rolls_royce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4F42F072449F3AD00162DE0 /* rolls_royce.jpg */; };
+		D4F42F132449F3AD00162DE0 /* lamborghini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4F42F082449F3AD00162DE0 /* lamborghini.jpg */; };
+		D4F42F142449F3AD00162DE0 /* maybach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4F42F092449F3AD00162DE0 /* maybach.jpg */; };
+		D4F42F152449F3AD00162DE0 /* mazda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4F42F0A2449F3AD00162DE0 /* mazda.jpg */; };
+		D4F42F182449F3D200162DE0 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F42F172449F3D200162DE0 /* Data.swift */; };
+		D4F42F1A2449F44800162DE0 /* CarShowroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F42F192449F44800162DE0 /* CarShowroom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +41,19 @@
 		D437240024435C500069AF4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D49EB84A24435EBC00DA69E7 /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
 		D4CB32DC24440F75002631BF /* ShopLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopLocation.swift; sourceTree = "<group>"; };
+		D4F42F002449F3AD00162DE0 /* aston_martin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aston_martin.jpg; sourceTree = "<group>"; };
+		D4F42F012449F3AD00162DE0 /* lykan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lykan.jpg; sourceTree = "<group>"; };
+		D4F42F022449F3AD00162DE0 /* ferrari.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ferrari.jpg; sourceTree = "<group>"; };
+		D4F42F032449F3AD00162DE0 /* showroomData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = showroomData.json; sourceTree = "<group>"; };
+		D4F42F042449F3AD00162DE0 /* koenigsegg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = koenigsegg.jpg; sourceTree = "<group>"; };
+		D4F42F052449F3AD00162DE0 /* bugatti.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bugatti.jpg; sourceTree = "<group>"; };
+		D4F42F062449F3AD00162DE0 /* pagani.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pagani.jpg; sourceTree = "<group>"; };
+		D4F42F072449F3AD00162DE0 /* rolls_royce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rolls_royce.jpg; sourceTree = "<group>"; };
+		D4F42F082449F3AD00162DE0 /* lamborghini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lamborghini.jpg; sourceTree = "<group>"; };
+		D4F42F092449F3AD00162DE0 /* maybach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maybach.jpg; sourceTree = "<group>"; };
+		D4F42F0A2449F3AD00162DE0 /* mazda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mazda.jpg; sourceTree = "<group>"; };
+		D4F42F172449F3D200162DE0 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		D4F42F192449F44800162DE0 /* CarShowroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarShowroom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +86,8 @@
 		D43723F124435C4F0069AF4E /* Car_Showroom */ = {
 			isa = PBXGroup;
 			children = (
+				D4F42F162449F3B800162DE0 /* Models */,
+				D4F42EFF2449F3AD00162DE0 /* Resources */,
 				D43723F224435C4F0069AF4E /* AppDelegate.swift */,
 				D43723F424435C4F0069AF4E /* SceneDelegate.swift */,
 				D43723F624435C4F0069AF4E /* ContentView.swift */,
@@ -79,6 +107,33 @@
 				D43723FB24435C500069AF4E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D4F42EFF2449F3AD00162DE0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D4F42F002449F3AD00162DE0 /* aston_martin.jpg */,
+				D4F42F012449F3AD00162DE0 /* lykan.jpg */,
+				D4F42F022449F3AD00162DE0 /* ferrari.jpg */,
+				D4F42F032449F3AD00162DE0 /* showroomData.json */,
+				D4F42F042449F3AD00162DE0 /* koenigsegg.jpg */,
+				D4F42F052449F3AD00162DE0 /* bugatti.jpg */,
+				D4F42F062449F3AD00162DE0 /* pagani.jpg */,
+				D4F42F072449F3AD00162DE0 /* rolls_royce.jpg */,
+				D4F42F082449F3AD00162DE0 /* lamborghini.jpg */,
+				D4F42F092449F3AD00162DE0 /* maybach.jpg */,
+				D4F42F0A2449F3AD00162DE0 /* mazda.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D4F42F162449F3B800162DE0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D4F42F172449F3D200162DE0 /* Data.swift */,
+				D4F42F192449F44800162DE0 /* CarShowroom.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +194,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4F42F102449F3AD00162DE0 /* bugatti.jpg in Resources */,
+				D4F42F152449F3AD00162DE0 /* mazda.jpg in Resources */,
+				D4F42F0F2449F3AD00162DE0 /* koenigsegg.jpg in Resources */,
 				D43723FF24435C500069AF4E /* LaunchScreen.storyboard in Resources */,
+				D4F42F0C2449F3AD00162DE0 /* lykan.jpg in Resources */,
 				D43723FC24435C500069AF4E /* Preview Assets.xcassets in Resources */,
+				D4F42F112449F3AD00162DE0 /* pagani.jpg in Resources */,
+				D4F42F0E2449F3AD00162DE0 /* showroomData.json in Resources */,
+				D4F42F122449F3AD00162DE0 /* rolls_royce.jpg in Resources */,
+				D4F42F0B2449F3AD00162DE0 /* aston_martin.jpg in Resources */,
 				D43723F924435C500069AF4E /* Assets.xcassets in Resources */,
+				D4F42F132449F3AD00162DE0 /* lamborghini.jpg in Resources */,
+				D4F42F0D2449F3AD00162DE0 /* ferrari.jpg in Resources */,
+				D4F42F142449F3AD00162DE0 /* maybach.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,9 +218,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4F42F1A2449F44800162DE0 /* CarShowroom.swift in Sources */,
 				D43723F324435C4F0069AF4E /* AppDelegate.swift in Sources */,
 				D4CB32DD24440F75002631BF /* ShopLocation.swift in Sources */,
 				D43723F524435C4F0069AF4E /* SceneDelegate.swift in Sources */,
+				D4F42F182449F3D200162DE0 /* Data.swift in Sources */,
 				D49EB84B24435EBC00DA69E7 /* Logo.swift in Sources */,
 				D43723F724435C4F0069AF4E /* ContentView.swift in Sources */,
 			);
