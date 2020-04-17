@@ -95,8 +95,7 @@
 				D43723FD24435C500069AF4E /* LaunchScreen.storyboard */,
 				D437240024435C500069AF4E /* Info.plist */,
 				D43723FA24435C500069AF4E /* Preview Content */,
-				D49EB84A24435EBC00DA69E7 /* Logo.swift */,
-				D4CB32DC24440F75002631BF /* ShopLocation.swift */,
+				D43C08E32449F6EE001BAEFD /* Supporting Views */,
 			);
 			path = Car_Showroom;
 			sourceTree = "<group>";
@@ -107,6 +106,15 @@
 				D43723FB24435C500069AF4E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D43C08E32449F6EE001BAEFD /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				D49EB84A24435EBC00DA69E7 /* Logo.swift */,
+				D4CB32DC24440F75002631BF /* ShopLocation.swift */,
+			);
+			path = "Supporting Views";
 			sourceTree = "<group>";
 		};
 		D4F42EFF2449F3AD00162DE0 /* Resources */ = {
