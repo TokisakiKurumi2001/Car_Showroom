@@ -377,6 +377,7 @@
 				DEVELOPMENT_TEAM = 99F6V6VQPQ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Car_Showroom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -397,6 +398,7 @@
 				DEVELOPMENT_TEAM = 99F6V6VQPQ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Car_Showroom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
