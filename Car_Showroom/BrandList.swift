@@ -10,8 +10,13 @@ import SwiftUI
 
 struct BrandList: View {
     var body: some View {
-        List(showroomData) { carBrand in
-            CarRow(carBrand: carBrand)
+        NavigationView {
+            List(showroomData) { carBrand in
+                NavigationLink(destination: CarDetail(carBrand: carBrand)) {
+                    CarRow(carBrand: carBrand)
+                }
+            }
+            .navigationBarTitle(Text("Car Showroom"))
         }
     }
 }

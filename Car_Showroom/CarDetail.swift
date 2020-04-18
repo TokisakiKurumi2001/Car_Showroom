@@ -12,11 +12,11 @@ struct CarDetail: View {
     var carBrand: CarShowroom
     var body: some View {
         VStack {
-            ShopLocation(carBrand: carBrand)
+            ShopLocation(location: carBrand.locationCoordinate)
                 .edgesIgnoringSafeArea(.top)
                 .frame(height: 300)
             
-            Logo(carBrand: carBrand)
+            Logo(image: carBrand.image)
                 .offset(y: -130)
                 .padding(.bottom, -130)
             
@@ -35,6 +35,7 @@ struct CarDetail: View {
             
             Spacer()
         }
+        .navigationBarTitle(Text(carBrand.name), displayMode: .inline)
     }
 }
 

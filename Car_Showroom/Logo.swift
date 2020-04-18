@@ -9,9 +9,9 @@
 import SwiftUI
 
 struct Logo: View {
-    var carBrand: CarShowroom
+    var image: Image
     var body: some View {
-        carBrand.image
+        image
             // add the resizable method
             // in order to resize the image
             .resizable()
@@ -24,6 +24,6 @@ struct Logo: View {
 
 struct Logo_Previews: PreviewProvider {
     static var previews: some View {
-        Logo(carBrand: showroomData[0])
+        Logo(image: showroomData[0].image)
     }
 }
