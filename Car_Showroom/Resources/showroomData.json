@@ -6,6 +6,7 @@
         "state": "Gaydon",
         "id": 1001,
         "park": "Gaydon, Warwickshire",
+        "isFavorite": true,
         "coordinates": {
             "longitude": -1.4732809,
             "latitude": 52.1837913
@@ -19,6 +20,7 @@
         "state": "France",
         "id": 1002,
         "park": "Molsheim, France",
+        "isFavorite": false,
         "coordinates": {
             "longitude": 7.4813479,
             "latitude": 48.5456736
@@ -32,6 +34,7 @@
         "state": "Italy",
         "id": 1003,
         "park": "Maranello, Italy",
+        "isFavorite": true,
         "coordinates": {
             "longitude": 10.8508738,
             "latitude": 44.5290696
@@ -45,6 +48,7 @@
         "state": "Sweden",
         "id": 1004,
         "park": "Angelholm, Sweden",
+        "isFavorite": false,
         "coordinates": {
             "longitude": 12.7964403,
             "latitude": 56.2524501
@@ -58,6 +62,7 @@
         "state": "Italy",
         "id": 1005,
         "park": "Sant'Agata Bolognese, Italy",
+        "isFavorite": false,
         "coordinates": {
             "longitude": 11.0956852,
             "latitude": 44.6654612
@@ -71,6 +76,7 @@
         "state": "UAE",
         "id": 1006,
         "park": "Dubai, UAE",
+        "isFavorite": false,
         "coordinates": {
             "longitude": 54.9475494,
             "latitude": 25.0757073
@@ -84,6 +90,7 @@
         "state": "Germany",
         "id": 1007,
         "park": "Stuttgart, Germany",
+        "isFavorite": true,
         "coordinates": {
             "longitude": 9.037131,
             "latitude": 48.7793504
@@ -97,6 +104,7 @@
         "state": "Viet Nam",
         "id": 1008,
         "park": "Ho Chi Minh, Viet Nam",
+        "isFavorite": false,
         "coordinates": {
             "longitude": 106.4150268,
             "latitude": 10.7553411
@@ -110,6 +118,7 @@
         "state": "Italy",
         "id": 1009,
         "park": "San Cesario sul Panaro, Italy",
+        "isFavorite": false,
         "coordinates": {
             "longitude": 11.0267413,
             "latitude": 44.5648705
@@ -123,6 +132,7 @@
         "state": "England",
         "id": 1010,
         "park": "Derby, England",
+        "isFavorite": false,
         "coordinates": {
             "longitude": -1.5400074,
             "latitude": 2.914669,

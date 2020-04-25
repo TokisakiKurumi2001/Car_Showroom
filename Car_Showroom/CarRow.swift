@@ -17,6 +17,11 @@ struct CarRow: View {
                 .frame(width: 50, height: 50)
             Text(carBrand.name)
             Spacer()
+            if (carBrand.isFavorite) {
+                Image(systemName: "star.fill")
+                    .imageScale(.medium)
+                    .foregroundColor(.yellow)
+            }
         }
     }
 }
