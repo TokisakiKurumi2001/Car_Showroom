@@ -9,11 +9,20 @@
 import SwiftUI
 
 struct BrandList: View {
+    // @EnvironmentObject var userData : UserData
+    @State var showFavoriteList = false
     var body: some View {
         NavigationView {
-            List(showroomData) { carBrand in
-                NavigationLink(destination: CarDetail(carBrand: carBrand)) {
-                    CarRow(carBrand: carBrand)
+            List {
+                Toggle(isOn: $showFavoriteList) {
+                    Text("Show Favorite")
+                }
+                ForEach(showroomData) { carBrand in
+                    if !self.showFavoriteList || carBrand.isFavorite {
+                        NavigationLink(destination: CarDetail(carBrand: carBrand)) {
+                            CarRow(carBrand: carBrand)
+                        }
+                    }
                 }
             }
             .navigationBarTitle(Text("Car Showroom"))
@@ -24,5 +33,6 @@ struct BrandList: View {
 struct BrandList_Previews: PreviewProvider {
     static var previews: some View {
         BrandList()
+           // .environmentObject(UserData())
     }
 }
