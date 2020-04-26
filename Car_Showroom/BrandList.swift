@@ -9,16 +9,19 @@
 import SwiftUI
 
 struct BrandList: View {
-    @EnvironmentObject var userData : UserData
+    @EnvironmentObject private var userData : UserData
     var body: some View {
         NavigationView {
             List {
                 Toggle(isOn: $userData.showFavoriteList) {
                     Text("Show Favorite")
                 }
-                ForEach(showroomData) { carBrand in
+                ForEach(userData.brands) { carBrand in
                     if !self.userData.showFavoriteList || carBrand.isFavorite {
-                        NavigationLink(destination: CarDetail(carBrand: carBrand)) {
+                        NavigationLink(
+                            destination: CarDetail(carBrand: carBrand)
+                                .environmentObject(self.userData)
+                        ) {
                             CarRow(carBrand: carBrand)
                         }
                     }
